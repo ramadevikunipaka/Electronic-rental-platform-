@@ -1,0 +1,1 @@
+console.log('Authentication page ready');
