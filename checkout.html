@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checkout - ElectroRent</title><link rel="stylesheet" href="css/style.css"></head>
+<body><header><h1>Checkout</h1></header><main class="form-container">
+<form action="/api/rentals" method="post"><label>Full Name</label><input type="text" name="name" required>
+<label>Delivery Address</label><textarea name="address" required></textarea><label>Rental Start Date</label><input type="date" name="startDate" required>
+<label>Rental End Date</label><input type="date" name="endDate" required><h3>Total Amount: ₹2500</h3>
+<button class="btn" type="submit">Confirm Rental</button></form></main></body></html>
