@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register - ElectroRent</title><link rel="stylesheet" href="css/style.css"></head>
+<body><header><h1>ElectroRent</h1></header>
+<main class="form-container"><h2>Create Account</h2>
+<form action="/api/users/register" method="post">
+<label>Full Name</label><input type="text" name="name" required>
+<label>Email</label><input type="email" name="email" required>
+<label>Phone</label><input type="tel" name="phone" required>
+<label>Password</label><input type="password" name="password" required>
+<button class="btn" type="submit">Register</button></form>
+<p>Already registered? <a href="login.html">Login</a></p></main></body></html>
